@@ -1,0 +1,26 @@
+{
+  "name": "steep.love",
+  "version": "0.0.1",
+  "description": "A steep timer for tea of all kinds (and I guess coffee too)",
+  "main": "Steep.js",
+  "dependencies": {
+    "uglify": "^0.1.5"
+  },
+  "devDependencies": {
+    "elm": "^0.16.0",
+    "uglify": "^0.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makyo/steep.love.git"
+  },
+  "author": "Madison Scott-Clary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makyo/steep.love/issues"
+  },
+  "homepage": "https://github.com/makyo/steep.love#readme"
+}
