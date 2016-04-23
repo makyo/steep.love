@@ -18,4 +18,4 @@ import Signal exposing (Address, Signal)
 
 main : Html
 main =
-    text "Coming soon: storing multiple sessions in localStorage!"
+    em [] [ text "Coming soon: storing multiple sessions in localStorage!" ]

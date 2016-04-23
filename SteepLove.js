@@ -10478,7 +10478,7 @@ Elm.SteepList.make = function (_elm) {
    $Result = Elm.Result.make(_elm),
    $Signal = Elm.Signal.make(_elm);
    var _op = {};
-   var main = $Html.text("Coming soon: storing multiple sessions in localStorage!");
+   var main = A2($Html.em,_U.list([]),_U.list([$Html.text("Coming soon: storing multiple sessions in localStorage!")]));
    return _elm.SteepList.values = {_op: _op,main: main};
 };
 Elm.SteepSession = Elm.SteepSession || {};
