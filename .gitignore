@@ -7,3 +7,6 @@ elm.js
 
 # node stuff
 node_modules
+
+#other
+.DS_Store

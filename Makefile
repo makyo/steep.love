@@ -1,7 +1,7 @@
 ELM_FILES = $(shell ls *.elm)
 
-SteepLove.min.js: SteepLove.js manage-steeps.js
-	node_modules/.bin/uglify -s SteepLove.js,manage-steeps.js -o SteepLove.min.js
+SteepLove.min.js: bgswitcher.js SteepLove.js manage-steeps.js 
+	node_modules/.bin/uglify -s bgswitcher.js,SteepLove.js,manage-steeps.js -o SteepLove.min.js
 
 SteepLove.js: $(ELM_FILES)
 	node_modules/.bin/elm-make $(ELM_FILES) --output SteepLove.js

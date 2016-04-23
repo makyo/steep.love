@@ -1,0 +1,25 @@
+html,
+head,
+body {
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family: calibri, helvetica, arial, sans-serif;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+main {
+    display: block;
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    overflow: scroll;
+}
